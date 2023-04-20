@@ -1,0 +1,49 @@
+#cart {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-details h3 {
+  margin-top: 0;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-controls input {
+  width: 50px;
+  margin: 0 10px;
+}
+
+.delete-btn,
+.like-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.like-btn i {
+  color: #ccc;
+}
+
+.like-btn.active i {
+  color: red;
+}
+
+.cart-total {
+  text-align: right;
+  margin-top: 20px;
+}
